@@ -1,0 +1,2 @@
+﻿SuperAdmin DbContext:
+Scaffold-DbContext "Server=.;Database=ExcelExtractor;User Id=sa;password=Exqu!tech;Trust Server Certificate=true;MultipleActiveResultSets=true;" Microsoft.EntityFrameworkCore.SqlServer -outputdir Models  -context ExcelDbContext -contextDir "ExcelDbContext" -NoOnConfiguring -f

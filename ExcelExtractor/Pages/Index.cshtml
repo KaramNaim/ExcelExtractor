@@ -1,0 +1,24 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Extract data from Excel file using JavaScript</title>
+</head>
+<body>
+    @*<input type="file" id="fileInput1" accept=".xlsx" />*@
+    <input type="file" webkitdirectory id="ImportFiles">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    the online version.-->
+  
+</body>
+</html>
+
+@section Scripts{
+    <script src="~/js/site.js"></script>
+    <script src="~/js/scriptpre.js"></script>
+}
